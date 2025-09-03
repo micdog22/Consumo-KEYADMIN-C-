@@ -1,4 +1,4 @@
-# MicKeyAdminClient — Exemplo C++ para consumir a KeyAdmin (por MicDog)
+# MicKeyAdminClient — Exemplo C++ para consumir a KeyAdmin 
 
 Projeto C++ completo (CMake) para **ativar** e **validar** licenças usando a sua API KeyAdmin.
 Sem dependências externas — usa **WinHTTP** (Windows). Ótimo como exemplo de integração nativa.
