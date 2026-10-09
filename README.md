@@ -1,7 +1,7 @@
-# MicKeyAdminClient — Exemplo C++ para consumir a KeyAdmin 
+# MicKeyAdminClient: Exemplo C++ para consumir a KeyAdmin 
 
 Projeto C++ completo (CMake) para **ativar** e **validar** licenças usando a sua API KeyAdmin.
-Sem dependências externas — usa **WinHTTP** (Windows). Ótimo como exemplo de integração nativa.
+Sem dependências externas: usa **WinHTTP** (Windows). Ótimo como exemplo de integração nativa.
 
 Autor: **MicDog (Michael Douglas)**
 
@@ -40,7 +40,7 @@ MicKeyAdminClient.exe --base https://keyadmin.online   --cliente_hash SEU_CLIENT
 > - `POST {base}/painel/api/validar.php`
 > - `POST {base}/painel/api/ativar.php`
 > Campos comuns: `cliente_hash`, `api_key`, `software_id`, `key`, `hwid` (opcional) 
-> Alguns painéis exigem somente `cliente_hash` para validar e `api_key` para operações protegidas — adapte nos args.
+> Alguns painéis exigem somente `cliente_hash` para validar e `api_key` para operações protegidas. Adapte nos args.
 
 ## Exemplos
 - Validar apenas com `cliente_hash` + `key` (se sua API permitir):
@@ -71,7 +71,7 @@ MicKeyAdminClient/
 
 ## Observações
 - Se o seu painel usa rotas amigáveis (ex.: `/painel/api/ativar`), altere em `KeyAdminClient.h`.
-- Este cliente **não armazena** tokens ou HWID — é somente exemplo de consumo.
+- Este cliente **não armazena** tokens ou HWID: é somente exemplo de consumo.
 - Você pode incorporar em launchers/instaladores em C++.
 
 ## Licença
